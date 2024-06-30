@@ -365,3 +365,40 @@ hr{
     font-size: 12px;
     margin-top: 20px;
 }
+
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.team .team-member{
+    background: gray;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #000000;
+    position: relative;
+}
+
+.team .team-member h3{
+    color: lightgreen;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team-member p.role{
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+
+.team .team-member .team-member-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
